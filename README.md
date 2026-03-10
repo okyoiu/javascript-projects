@@ -2,7 +2,9 @@
 
 ## ℹ️ Overview
 
-Thank you for checking my Repository! The main goal here is to mainly practice my JavaScript skills, however, I also want to learn some important fundamentals to learning critical values into learning how to think like a programmer. Feel free to visit some of my projects that I've built. Each folder is a new project and is something that I was proud to have build using the basic properties of: CSS, HTML, & JavaScript.
+Thank you for checking out my repository! The main goal of this workspace is to practice my JavaScript skills and master the core fundamentals of thinking like a programmer.
+
+Feel free to visit some of my projects that I've built. Each folder is a new project and is something that I was proud to have build using the basic properties of: CSS, HTML, & JavaScript.
 
 Feel free to explore the projects I've built. If you support my work or have any feedback or code reviews, I would truly appreciate it!
 
@@ -15,3 +17,19 @@ This repository is built strictly with vanilla web technologies:
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ---
+
+## 📂 Projects Directory
+
+| Project Number | Title | Key Concepts Mastered |
+| :--- | :--- | :--- |
+| **001** | [Clock](./001-clock) | `setInterval`, Date Objects, CSS Variables |
+
+--- 
+
+## 🛠️ Local Development
+
+To run any of these projects locally on your machine:
+
+1. Clone this repository to your local machine.
+2. Open the specific project folder in your code editor.
+3. Use an extension like **Live Server** in VS Code to launch the `index.html` file in your browser.
