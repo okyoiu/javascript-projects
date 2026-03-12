@@ -6,8 +6,6 @@ Thank you for checking out my repository! The main goal of this workspace is to 
 
 Feel free to visit some of my projects that I've built. Each folder is a new project and is something that I was proud to have build using the basic properties of: CSS, HTML, & JavaScript.
 
-Feel free to explore the projects I've built. If you support my work or have any feedback or code reviews, I would truly appreciate it!
-
 ## 💻 Tech Stack
 
 This repository is built strictly with vanilla web technologies:
