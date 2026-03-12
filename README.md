@@ -22,7 +22,8 @@ This repository is built strictly with vanilla web technologies:
 
 | Project Number | Title | Key Concepts Mastered |
 | :--- | :--- | :--- |
-| **001** | [Clock](./001-clock) | `setInterval`, Date Objects, CSS Variables |
+| **001** | [Clock](./001-clock) | `setInterval`, `Date Objects`, `CSS Variables` |
+| **002** | [Array Swap](./002-Array-Swap-Visual/)| `.map()`, `State-Driven UI`, `CSS Box Model`|
 
 --- 
 
