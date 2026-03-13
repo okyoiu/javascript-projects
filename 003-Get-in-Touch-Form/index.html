@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get In Touch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- section acts as a more specific div -->
+    <section class="contact-section">
+        <div class="contact-header">
+            <h2>Get in Touch with Me!</h2>
+            <p>This is a testing part, my experitise is growing in story telling websites and getting in touch with more general topics.</p>
+         </div>
+        <!-- form gets everything inside as text-boxes -->
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+              <label for="firstName">First Name*</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Enter first name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="lastName">Last Name*</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Enter last name" required>
+            </div>
+          
+            <div class="form-group">
+              <label for="email">E-mail Address*</label>
+              <input type="email" id="email" name="email" placeholder="Enter e-mail address" required>
+            </div>
+          
+            <div class="form-group">
+              <label for="phone">Phone Number*</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+            </div>
+          
+            <div class="form-group full-width">
+              <label for="subject">Subject*</label>
+              <input type="text" id="subject" name="subject" placeholder="Enter subject" required>
+            </div>
+          
+            <div class="form-group full-width">
+              <label for="message">Message*</label>
+              <textarea id="message" name="message" rows="5" placeholder="Enter message..." required></textarea>
+            </div>
+          
+            <div class="form-checkbox full-width">
+              <input type="checkbox" id="terms" name="terms" required>
+              <label for="terms">
+                By signing up, you agree to our <a href="#">Privacy Policy</a>.
+              </label>
+            </div>
+          
+            <button type="submit" class="submit-btn full-width">Submit Request</button>
+          </form>
+    </section>
+</body>
+</html>

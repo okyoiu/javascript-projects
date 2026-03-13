@@ -1,0 +1,143 @@
+/* Reseting the margins (good practice) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    /* colors */
+    --bg-page: #121212;
+    --bg-form: #1e1e1e;
+    --bg-input: #2a2a2a;
+    
+    --text-main: #ffffff;
+    --text-muted: #a0a0a0;
+    
+    --brand-primary: #e5a93d;
+    --brand-hover: #d49a34;
+    
+    --border-color: #444;
+  
+    /* space and fonts */
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --border-radius: 4px;
+  }
+
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-main);
+    padding: 40px 20px;
+  }
+
+  .contact-section {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--bg-form);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .contact-header {
+    margin-bottom: 30px;
+  }
+  
+  .contact-header h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-header p {
+    color: var(--text-muted);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /*4) LAYOUT & FIELDS */
+.form-row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    flex: 1; 
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #e0e0e0; /* Kept this slightly off-white to contrast with pure white text */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: var(--bg-input);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    color: var(--text-main);
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: var(--brand-primary); 
+  }
+  
+  /* 5) CHECKBOX AREA */
+  .form-checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .form-checkbox label {
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+  
+  .form-checkbox a {
+    color: var(--brand-primary);
+    text-decoration: none;
+  }
+  
+  .form-checkbox a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 6) SUBMIT BUTTON */
+  .submit-btn {
+    background-color: var(--brand-primary);
+    color: var(--bg-page); /* Makes the text match the dark background */
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; 
+  }
+  
+  .submit-btn:hover {
+    background-color: var(--brand-hover);
+  }
+  
+  /* 7) MOBILE RESPONSIVENESS*/
+  @media (max-width: 600px) {
+    .form-row {
+      flex-direction: column; 
+      gap: 0;
+    }
+  }
