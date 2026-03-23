@@ -23,6 +23,7 @@ This repository is built strictly with vanilla web technologies:
 | **001** | [Clock](./001-clock) | `setInterval`, `Date Objects`, `CSS Variables` |
 | **002** | [Array Swap](./002-Array-Swap-Visual/)| `.map()`, `State-Driven UI`, `CSS Box Model`|
 | **003** | [Contact Form](./003-Get-in-Touch-Form/)| `Forms`, `Buttons`, `Decorative Intent`|
+| **004** | [Interactive Cryptography Demonstrator](./004-Interactive-Cryotography/)| `Caesar Cipher`, `Mathematical logic`, `Responsive UI`|
 
 --- 
 
