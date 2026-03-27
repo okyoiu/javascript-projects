@@ -12,6 +12,32 @@
             <h1>Cryptography Visualizer</h1>
             <p>Explore how different ciphers manipulate data</p>
         </header>
+
+        <main class="cyrpto-board">
+            <section class="control-panel">
+            <h2>Caesar Cipher</h2>
+            
+            <div class="input-group">
+                <!-- reminder: "for" keyword makes it so that mouse clicks on textbox -->
+                <label for="plaintext">Plaintext Message</label>
+                <!-- Creating the textbox that goes with plaintext purpose-->
+                <textarea id="plaintext" placeholder="Type a message to encrypt..."></textarea> 
+            </div>
+
+            <!-- creating the slider input for this -->
+             <div class="slider-group">
+                <label for="shiftKey">Shift Key: <span id="shiftValue">3</span></label>
+                <!-- i know not user-friendly, this is just for practice -->
+                <input type="range" id="shiftKey" min="1" max="25" value="3">
+             </div>
+        </section>
+
+        <section class="output-panel">
+            <h2>Ciphertext Output</h2>
+            <div id="ciphertext" class="output-box"></div>
+        </section>
+        </main>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
